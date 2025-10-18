@@ -1,6 +1,9 @@
-# Stage Zero Backend
+# HNGi13 Stage Zero Backend
 
-Simple RESTful API endpoint that returns your profile information along with a dynamic cat fact fetched from an external API. This task validates your ability to consume third-party APIs, format JSON responses, and return dynamic data.
+[![Live](https://img.shields.io/badge/live-online-brightgreen)](https://baydre-stage-0-backend.pxxl.click/me)  
+Link: https://baydre-stage-0-backend.pxxl.click/me
+
+A Simple RESTful API endpoint that returns your profile information along with a dynamic cat fact fetched from an external API. This task validates your ability to consume third-party APIs, format JSON responses, and return dynamic data.
 
 ## Features
 
@@ -69,3 +72,21 @@ Open http://localhost:8000/me
 
 ## License
 See LICENSE file in the repository.
+
+## Author
+- Name: baydre
+- Slack: @baydre
+- Email: baydreafrica@gmail.com
+- GitHub: https://github.com/baydre
+
+## Deployment
+
+PXXL (chosen platform)
+
+- Connect your repository in the PXXL dashboard or push the repo following PXXL instructions.
+- Set environment variables in the PXXL app settings: USER_EMAIL, USER_NAME, USER_STACK
+- Start command (use the PORT PXXL provides):
+  ```
+  php -S 0.0.0.0:$PORT -t .
+  ```
+- If using Docker on PXXL, include a Dockerfile and let PXXL build the image. Ensure the container listens on the PORT provided by PXXL.
